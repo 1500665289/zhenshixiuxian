@@ -1,0 +1,201 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Item" Name="DanBase" Parent="DrugBase">
+		<MaxStack>100</MaxStack>
+		<TexPath>res\Sprs\object\object_DAdanyao01</TexPath>
+		<Desc>Desc.</Desc>	
+		<MaxHitPoints>100</MaxHitPoints>
+		<Rate>6</Rate>
+		<Beauty>8</Beauty>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1000"/>
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="500" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<FabaoSuffix>珠,丸,球</FabaoSuffix>
+		</Item>
+		<Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>2</AddionRadius>
+			<AddionFailing>1</AddionFailing>
+			<AddionFailRadius>1</AddionFailRadius>
+			
+			<Attenuation>0</Attenuation>
+			<Absorption>0</Absorption>
+			<Accommodate>0</Accommodate>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>5</Value>         
+			<Radius>2</Radius>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+		<Light>
+			<Value>15</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>1</Radius>
+			<Color>62F8FFFF</Color>
+		</Light>	
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_Dan_jilingdan999" Parent="DanBase">
+		<ThingName>激灵丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
+		<Desc>出自上古丹尊的丹方残篇，挖掘人体潜能，服用后可提高2级气感，而且无耐药性。</Desc>	
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="375"/>
+					<SalePrice Value="115" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="600" />
+					<SalePrice Value="225" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="300" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_jilingdan999</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_EarthEssence" count = "1"/>
+					<Item name = "Item_LingCrystal" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_Dan_shenlidan999" Parent="DanBase">
+		<ThingName>神力丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
+		<Desc>出自上古丹尊的丹方残篇，挖掘人体潜能，服用后可提高2级战斗能力，而且无耐药性。</Desc>	
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="375"/>
+					<SalePrice Value="115" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="600" />
+					<SalePrice Value="225" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="300" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_shenlidan999</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LifeStream" count = "1"/>
+					<Item name = "Item_LingCrystal" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_Dan_xingsuidan999" Parent="DanBase">
+		<ThingName>杏髓丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>上古丹尊的丹方残篇所记载之法，以银杏果精制而成，服用后可以提升精元。</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="5"/>
+		</Tags>	
+		<Rate>6</Rate>	
+		<Beauty>7</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="375"/>
+					<SalePrice Value="115" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="600" />
+					<SalePrice Value="225" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="300" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>250</PracticeNutrition>
+		</Food>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginkgo" count = "99"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>3</Value>
+		</Element>
+	</ThingDef>
+	
+	
+</List></ThingDefs>

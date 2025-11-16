@@ -1,0 +1,27 @@
+﻿<ModifierDefs><List>
+
+	<Modifier Name="Dan_shenlidan999" Type="Normal">
+		<DisplayName>神力丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+
+			<li Name="Fight" Level="2"/>战斗等级
+		</Skills>
+	</Modifier>
+
+	<Modifier Name="Dan_jilingdan999" Type="Normal">
+		<DisplayName>激灵丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+
+			<li Name="Qi" Level="2"/>气感等级
+		</Skills>
+	</Modifier> 
+	
+</List></ModifierDefs>

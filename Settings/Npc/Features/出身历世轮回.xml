@@ -1,0 +1,200 @@
+﻿<FeatureDefs><List> 
+
+	<Feature Name="shaxingjiangshi999" Type="Normal">
+		<DisplayName>杀星降世</DisplayName>
+		<Desc>是天上七杀星转世，天生就是为了杀戮战斗而生。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="10"/>
+				<li Name="Fabao" LevelOver="10"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="jianxianzhuanshi999" Type="Normal">
+		<DisplayName>剑仙转世</DisplayName>
+		<Desc>前世乃是纵横修行界的剑仙，以一剑绝杀之术闻名。曾杀龙屠凤，更与上古修行者争锋，威震天下。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="8"/>
+				<li Name="Qi" LevelOver="8"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="zhanluanyigu999" Type="Normal">
+		<DisplayName>战乱遗孤</DisplayName>
+		<Desc>出生在一个边境城市。在很小的时候，外族入侵，屠了出生的城市。从小就立誓，一定要从军征伐异族，报仇雪恨。为此以强大的意志完成一项又一项不可能的训练。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="5"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="langhai999" Type="Normal">
+		<DisplayName>狼孩</DisplayName>
+		<Desc>被一头母狼抚养长大，在被人从狼窝里发现时已经五岁。与狼为伴的童年让对人类充满疏离感，甚至花了好几年时间都无法正常说话。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="8"/>
+				<li Name="Qi" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="wulinshijia999" Type="Normal">
+		<DisplayName>武林世家</DisplayName>
+		<Desc>出身武术世家，自小接受严格的训练。在耳濡目染之下，对战斗的领悟非常深刻。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="4"/>
+				<li Name="Fabao" LevelOver="2"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="zheyitianshi999" Type="Normal">
+		<DisplayName>折翼天才</DisplayName>
+		<Desc>出生在一个武学世家，本来是绝世习武天才。然而在十一岁时突患怪病，内力逐渐流失，修炼变得很艰难。与自己指腹为婚的女孩也因此提出悔婚。身份的转变尝尽冷暖，发誓一定要重新夺回自己的一切。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="shengxianyixiang999" Type="Normal">
+		<DisplayName>生显异像</DisplayName>
+		<Desc>出生秉承世界的气运，天地间风云涌动，金光闪烁，夜如白昼。[IT]注定受到上天眷顾。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="6"/>
+				<li Name="Qi" LevelOver="6"/>
+				<li Name="Barrier" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="jianke999" Type="Normal">
+		<DisplayName>剑客</DisplayName>
+		<Desc>是一名剑客，出手时必定带着一张诡异的面具，从不以真面目示人，因此武林中无人知道身份。\n剑术高绝，身手快如闪电，传说必杀剑出手时，无人可以捕捉到身影。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="6"/>
+				<li Name="Fabao" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="miemenzhihen999" Type="Normal">
+		<DisplayName>灭门之恨</DisplayName>
+		<Desc>一心报仇，绝对不会把时间浪费在生活的琐事上。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="5"/>
+				<li Name="Qi" LevelOver="2"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="shengezhiming999" Type="Normal">
+		<DisplayName>神格之命</DisplayName>
+		<Desc>因其体质特殊，特别容易吸引鬼怪。小时候曾遇到一名高僧，高僧给一串佛珠和一张黑狗皮斗篷，无论行止坐卧都随身携带以遮蔽气息，才能平安长大。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="tianzongzhicai999" Type="Normal">
+		<DisplayName>天纵之才</DisplayName>
+		<Desc>聪明绝世，是天纵的奇才。无论学什么都能很快精通。却有天生的残疾，经脉残缺，无法修行。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Fight" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="tianbeng999" Type="Normal">
+		<DisplayName>天崩</DisplayName>
+		<Desc>家乡发生过一次天崩，是唯一的幸存者。在天崩中被狂暴的元气入体而身负顽疾，但也因此获得了超出常人的气感。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="xianrentuomeng999" Type="Normal">
+		<DisplayName>仙人托梦</DisplayName>
+		<Desc>曾经被仙人托梦，仙人在梦中传授了许多修行的知识，并在脑海中留下了一个神秘的坐标。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="4"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="qiduchanshen999" Type="Normal">
+		<DisplayName>奇毒缠身</DisplayName>
+		<Desc>小的时候误服过一种迷之植物，因此身中一种奇怪的毒素。拥有了异常敏锐的感知。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="4"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="qiyu999" Type="Normal">
+		<DisplayName>奇遇</DisplayName>
+		<Desc>曾经无意中服食过一颗千年何首乌，经历了伐毛洗髓，并获得了强健的身躯和绝佳的修行天赋。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="8"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="xiaodaotong999" Type="Normal">
+		<DisplayName>小道童</DisplayName>
+		<Desc>天资聪颖，深具潜能，在很小的年纪就到达了天人合一的境界，却并不自知。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="tonglingertong999" Type="Normal">
+		<DisplayName>通灵儿童</DisplayName>
+		<Desc>生有一双阴阳眼，能看到正常人看不到的东西。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="xiemozhizi999" Type="Normal">
+		<DisplayName>邪魔之子</DisplayName>
+		<Desc>母亲被邪魔所诱骗而怀孕生下，身体里也流着一半邪魔的血脉，长相难看，受尽歧视。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="4"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="fomenchuancheng999" Type="Normal">
+		<DisplayName>佛门传承</DisplayName>
+		<Desc>出生在一个叫草庙村的地方，七岁时，全村人被一个恶人所杀。一个路过的老和尚救了，并传给一段口诀，嘱咐每日修炼，不能告诉任何人。</Desc>
+		<ModifierDef>
+			<Skills>
+				<li Name="Qi" LevelOver="6"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+</List></FeatureDefs>

@@ -1,0 +1,29 @@
+﻿<DanFormulas><List>
+	
+	<!--激灵丹-->
+	<Dan Name="Dan_jilingdan999">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_jilingdan999</ItemName>
+		<Level>5</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--神力丹-->
+	<Dan Name="Dan_shenlidan999">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_shenlidan999</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--杏髓丹-->
+	<Dan Name="Dan_xingsuidan999">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_xingsuidan999</ItemName>
+		<Level>15</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>2</Count>
+	</Dan>
+		
+</List></DanFormulas>
